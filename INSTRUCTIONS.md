@@ -3,9 +3,8 @@
 ## Configuring the slides
 
 Much of the deck is customized by changing the settings in [`slide_config.js`](slide_config.js).
-Some of the customizations include the title, Analytics tracking ID, speaker
-information (name, social urls, blog), web fonts to load, themes, and other
-general behavior.
+Some of the customizations include the title, speaker information (name, social urls, blog),
+web fonts to load, themes, and other general behavior.
 
 ### Customizing the `#io12` hash
 
