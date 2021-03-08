@@ -1,8 +1,6 @@
 # Slides
 
-This project is using [io-2012-slides](https://code.google.com/archive/p/io-2012-slides) which is licensed under the
-[Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+## Presentation Framework
 
-## Local Web Server
-
-Use `bash serve.sh 3000` to serve the slides locally at <http://localhost:3000>.
+This project bundles [io-2012-slides](https://code.google.com/archive/p/io-2012-slides), which is available under the
+[Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0). See [instructions](INSTRUCTIONS.md) for details.
