@@ -1,10 +1,18 @@
 #!/bin/bash
 #
-# Starts a basic web server on the port specified.
-# 
-# ./serve.sh 3000 -> http://localhost:3000
+# Copyright 2012 Eric Bidelman
 #
-# Copyright 2012 Eric Bidelman <ebidel@gmail.com>
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
 
 port=$1
 if [ $#  -ne  1 ]
@@ -19,4 +27,4 @@ else
   open=xdg-open
 fi
 
-$open http://localhost:$port/template.html && python -m http.server $port;
+$open http://localhost:$port/index.html && python -m http.server $port;
